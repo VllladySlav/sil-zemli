@@ -339,7 +339,7 @@ button, input, textarea { font: inherit; }
 .history-card figure { margin: 0; height: 230px; overflow: hidden; }
 .history-card img { width: 100%; height: 100%; object-fit: cover; filter: saturate(.82) contrast(1.05) brightness(.82); }
 .history-card > div { padding: 24px 24px 28px; }
-.card-number { margin: 0 0 6px; color: var(--terracotta-strong); font-family: var(--serif); font-size: 28px; line-height: 1; }
+.card-number { margin: 0 0 6px; color: var(--terracotta-strong); color: #B36D3D !important; font-family: var(--serif); font-size: 32px !important; line-height: 1; }
 .history-card h3 { margin: 0 0 12px; color: #fff2d6; font-family: var(--serif); font-size: clamp(24px,2.7vw,36px); line-height: 1.05; }
 .history-card p { margin: 0 0 10px; color: rgba(255,249,238,.76); font-size: 16.5px; line-height: 1.5; }
 .history-card-wide { grid-column: span 1; }
@@ -407,6 +407,9 @@ button, input, textarea { font: inherit; }
 .contact-grid a:hover { transform: translateY(-3px); border-color: rgba(211,107,61,.45); background: rgba(255,250,241,.07); }
 .contact-grid span { display: block; color: var(--gold-300); font-size: 14px; font-weight: 700; }
 .contact-grid strong { display: block; margin-top: 5px; color: rgba(255,249,238,.9); font-size: 16px; }
+
+.explanation {font-size: 28px; color: #caa66b !important; font-family: var(--script)}
+.explanation2 {font-size: 14px; }
 
 /* Reveal animation */
 .reveal { opacity: 0; transform: translateY(34px); transition: opacity .7s ease, transform .7s ease; }
